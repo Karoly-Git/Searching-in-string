@@ -1,5 +1,9 @@
+# with this code I'd like to show (especially to beginners) how easy to search in a string
+# what this code does: will find string named 'given' in string named 'text' then shows it's location
+# of course you can change any of them and apply on any strings
+# if you are a beginner: try to figure out what I use line-11 and line-12 for
 
-text = "this is a text, type in whatever you wish, we'll find a given string in this, the variable of given string is named 'given'"
+text = "this is a text, type in whatever you wish, then you can find a given string in this, the variable of given string is below named 'given'"
 given = "given"
 
 for i in range(len(text)):
